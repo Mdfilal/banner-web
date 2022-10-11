@@ -1,0 +1,157 @@
+:root{
+    --first-color:rgb(211, 41, 41);
+    --second-color:white;
+    
+
+
+
+}
+
+
+*{
+    
+    
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: space-between;
+}
+/* This is top nav bar  */
+nav{
+    background-color:var(--first-color);
+    width: 100%;
+    height: 8vh;
+    
+    
+    
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+
+
+    position: fixed;
+    top: 0;
+}
+ #nav-text{
+    color: var(--second-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+/* top nav bar end  */
+
+
+
+
+/* container 1 */
+
+
+.sec-one{
+    
+    background-color:var(--second-color);
+    border: solid black 0.5vh;
+    margin-top: 8vh;
+    height: 84vh;
+    width: 100%;
+
+    display: flex;
+
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    
+    
+}
+.text-sec-one{
+
+    background-color: rgb(57, 57, 77);
+    
+    height: 50vh;
+    width: 100vh;
+    margin-left: 2vh;
+    text-align: center;
+    margin-top:2vh ;
+
+    
+}
+.login-fr{
+
+    margin-right:6vh ;
+    margin-top: 5vh;
+    background-color:var(--second-color);
+    height: 65vh;
+    width: 76vh;
+    border-radius: 18vh;
+    border-color: var(--first-color);
+    border-width: 0.5vh;
+    border-style: solid;
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+.f-1{
+
+    margin-top:18vh ;
+    margin-bottom: 5vh;
+    color: var(--first-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 2.459vh;
+    
+
+    
+}
+.f-2{
+
+    margin-top: 0vh;
+    margin-bottom: 18vh;
+
+    color: var(--first-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 2.459vh;
+}
+
+a{
+    margin: 1vh;
+
+}
+input{
+    border-radius: 18vh;
+    width:25vh;
+    color: var(--second-color);
+    border-color: var(--first-color);
+}
+button{
+    margin: 5vh;
+    margin-bottom: 100vh;
+    margin-top: -25vh;
+    width: 25vh;
+    height: 7vh;
+    border-radius: 12vh;
+    color: var(--second-color);
+    background-color: var(--first-color);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+
+}
